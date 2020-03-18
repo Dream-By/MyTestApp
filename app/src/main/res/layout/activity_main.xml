@@ -81,41 +81,49 @@
             android:text="МЧС Беларуси"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="73dp" android:id="@+id/textView"
+            android:id="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/Emergency" app:layout_constraintBottom_toTopOf="@+id/Medical"
-            app:layout_constraintVertical_bias="0.4"/>
+            app:layout_constraintVertical_bias="0.4" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.233"/>
     <TextView
             android:text="Милиция"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="253dp" android:id="@+id/textView2"
+            android:id="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/Police" app:layout_constraintBottom_toTopOf="@+id/GaS"
-            app:layout_constraintVertical_bias="0.4"/>
+            app:layout_constraintVertical_bias="0.4" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.722"/>
     <TextView
             android:text="Скорая"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="98dp" android:id="@+id/textView3"
+            android:id="@+id/textView3"
             app:layout_constraintTop_toBottomOf="@+id/Medical" app:layout_constraintBottom_toTopOf="@+id/railway"
-            app:layout_constraintVertical_bias="0.288"/>
+            app:layout_constraintVertical_bias="0.288" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.269"/>
     <TextView
             android:text="Газовая служба"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="230dp" android:id="@+id/textView4"
+            android:id="@+id/textView4"
             app:layout_constraintTop_toBottomOf="@+id/GaS" app:layout_constraintBottom_toTopOf="@+id/BelPost"
-            app:layout_constraintVertical_bias="0.288"/>
+            app:layout_constraintVertical_bias="0.288" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.76"/>
     <TextView
             android:text="БелЖД"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="98dp" android:id="@+id/textView5"
-            app:layout_constraintTop_toBottomOf="@+id/railway" android:layout_marginTop="16dp"/>
+            android:id="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/railway" android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.269"/>
     <TextView
             android:text="Белпочта"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="250dp" android:id="@+id/textView6"
-            app:layout_constraintTop_toBottomOf="@+id/BelPost" android:layout_marginTop="16dp"/>
+            android:id="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/BelPost" android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.72"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
